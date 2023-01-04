@@ -1,0 +1,29 @@
+nav > ul{
+    display: flex;
+}
+nav li {
+    list-style: none;
+    margin: 10px;
+    
+}
+li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    
+}
+nav li:hover{
+    background-color: lightgreen;
+    
+
+}
+nav li .nested{
+    display: none;
+}
+nav li:hover > .nested{
+    display: block;
+}
+.nested{
+    padding: 0;
+    position: absolute;
+}
